@@ -1,0 +1,36 @@
+body {
+    position: relative;
+    height: 100%;
+    background: #F3F3F3;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+.min-w-300 {
+    min-width: 300px !important;
+}
+
+.min-h-300 {
+    min-height: 300px !important;
+}
+
+.dark-image img {
+    -webkit-filter: brightness(50%);
+}
+
+.project-contain>.info {
+    transition: all .5s;
+    bottom: 10%;
+    left: 0px;
+}
+
+.project-contain:hover .info {
+    bottom: 25%;
+}
+
+.project-contain:hover .info p {
+    display: block !important;
+}
